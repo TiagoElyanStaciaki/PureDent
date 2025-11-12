@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+.instrument-sans-uniquifier {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+:root {
+    --primaryColor: #2B8CC4;
+    --textColor: black;
+    --textColorInverted: white;
+    --gradientColor: #CFE8F5;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    height: 380px;
+    background: linear-gradient(to bottom, var(--gradientColor), #FFFFFF);
+}
+
+header > img {
+    width: 320px;
+    height: 100px;
+    margin-top: 1rem;
+}
+
+header > hr {
+    width: 60%;
+    height: 2px;
+    margin: 0;
+    border: none;
+    background-color: var(--primaryColor);
+}
+
+header > nav > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 590px;
+    color: var(--primaryColor);
+    font-weight: 500;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+
+main > article {
+    margin: 0 auto;
+}
+
+section#mainContent {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top, var(--gradientColor), #FFFFFF);
+}
+
+div#allMainContent {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+div#mainTextContent {
+    margin-top: 5%;
+    width: 50%;
+}
+
+div#mainTextContent > h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: var(--primaryColor);
+    padding: 0 0 2rem 0;
+}
+
+div#mainTextContent > p {
+    text-align: justify;
+    font-size: 1.25rem;
+    font-weight: 500;
+    width: 590px;
+    padding: 0 0 2rem 0;
+}
+
+div#mainTextContent > button {
+    background-color: var(--primaryColor);
+    width: 450px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: var(--textColorInverted);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+div#mainImageContent {
+    width: 50%;
+}
+
+div#mainImageContent > img {
+    max-width: 700px;
+    max-height: 600px;
+    width: 100%;
+    height: 100%;
+}
+
+section#aboutUsContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--gradientColor);
+    gap: 2.5rem;
+}
+
+section#aboutUsContent > h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: var(--primaryColor);
+}
+
+div#cards {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+div#cards > div.card {
+    background-color: var(--primaryColor);
+    width: 25%;
+    height: 500px;
+    color: var(--textColorInverted);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+    gap: 1rem;
+}
+
+div.card > img {
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+}
+
+div.card > h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+div.card > p {
+    text-align: justify;
+    font-size: 1.25rem;
+}
+
+section#contactContent {
+    background: linear-gradient(to bottom, var(--gradientColor), #FFFFFF);
+}
+
+div#allContactContent {
+    display: flex;
+    width: 90%;
+}
+
+div#contactTextContent {
+
+}
+
+div#contactImageContent {
+    width: 50%;
+}
+
+div#contactImageContent > img {
+    max-width: 700px;
+    max-height: 600px;
+    width: 100%;
+    height: 100%;
+}
