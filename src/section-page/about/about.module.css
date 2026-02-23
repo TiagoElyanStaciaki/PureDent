@@ -1,0 +1,40 @@
+.sectionAbout {
+    background-color: #F9FAFB;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    margin: 120px auto 0 auto;
+    width: 85%;
+    color: #0B1C2D;
+    gap: 80px;
+}
+
+.aboutTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.aboutTitle > h1 {
+    font-size: 4rem;
+}
+
+.aboutTitle > p {
+    font-size: 1.25rem;
+    text-align: justify;
+    max-width: 600px;
+}
+
+.cards {
+    display: flex;
+    gap: 60px;
+}
+
+.cards > div {
+    width: 21%;
+    height: 260px;
+    max-width: 375px;
+    perspective: 1000px;
+}

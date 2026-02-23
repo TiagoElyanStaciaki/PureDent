@@ -1,0 +1,17 @@
+.sealBg {
+    display: flex;
+    align-items: center;
+    background-color: #1F2933;
+    color: #FACC15;
+    width: 280px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #7B8187;
+    justify-content: space-evenly;
+    font-weight: 500;
+}
+
+.icon {
+    width: 22px;
+    height: 22px;
+}

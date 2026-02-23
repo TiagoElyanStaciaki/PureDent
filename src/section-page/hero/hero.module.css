@@ -1,0 +1,51 @@
+.sectionHero {
+    background-image: url('../../assets/hero-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 85vh;
+}
+
+.bgGradient {
+    background: linear-gradient(90deg,rgba(11, 28, 45, 1) 0%, rgba(11, 28, 45, 0.4) 100%);
+    height: 100%;
+    width: 100%;
+}
+
+.containerContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 37vw;
+    height: 100%;
+    margin-left: 7.5%;
+    gap: 40px;
+}
+
+.title > h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 4rem;
+    display: inline-block;
+    line-height: 1;
+}
+
+.title > h2 {
+    display: inline-block;
+    line-height: 1;
+    color: #FACC15;
+    font-size: 4rem;
+}
+
+.containerContent > p {
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.containerBtns {
+    width: 70%;
+    min-width: 600px;
+}

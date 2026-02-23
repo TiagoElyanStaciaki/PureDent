@@ -1,0 +1,30 @@
+.containerPatients {
+    display: flex;
+    align-items: center;
+    color: #F9FAFBCC;
+    gap: 25px;
+}
+
+.imgPatients {
+    display: flex;
+}
+
+.imgPatients > div {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.patient1 {
+    background-color: aquamarine;
+}
+
+.patient2 {
+    transform: translate(-20%, 0);
+    background-color: antiquewhite;
+}
+
+.patient3 {
+    transform: translate(-40%, 0);
+    background-color: aquamarine;
+}

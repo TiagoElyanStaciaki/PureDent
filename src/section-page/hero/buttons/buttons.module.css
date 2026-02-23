@@ -1,0 +1,49 @@
+.containerBtns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.containerBtns > button {
+    width: 45%;
+    height: 55px;
+    border-radius: 25px;
+    font-size: 1.25rem;
+    max-width: 280px;
+    min-width: 280px;
+}
+
+.appointment {
+    background-color: #FACC15;
+    color: #0B1C2D;
+    font-weight: bold;
+    box-shadow: 0 0 32px 5px #FACC1540;
+    transition: transform 0.3s ease;
+}
+
+.appointment:hover {
+    transform: scale(105%);
+}
+
+.meet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #1F2933;
+    border: 1px solid #7B8187;
+    color: #FFFFFF;
+    font-weight: 400;
+    transition: transform 0.3s ease;
+}
+
+.meet:hover {
+    transform: scale(105%);
+}
+
+.icon {
+    color: #FACC15;
+    width: 28px;
+    height: 28px;
+}
